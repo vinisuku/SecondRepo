@@ -28,6 +28,6 @@ public class Dropdown {
 		   System.out.println(s.isMultiple());
 		   s.selectByValue("banana");
 		   s.selectByValue("orange");
-		   driver.close();
+		   driver.quit();
 	}
 }
